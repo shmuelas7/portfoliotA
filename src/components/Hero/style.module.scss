@@ -1,0 +1,27 @@
+.hero {
+    height: 80vh;
+    background: linear-gradient(#00000080, #00000080), url(../../../public/img/hero.jpg) fixed no-repeat center center;
+    padding: 0 1rem;
+}
+
+.heroContent {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    padding: 0 1rem;
+
+    h1 {
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+        color: #fff;
+    }
+
+    p {
+        font-size: 1.5rem;
+        max-width: 600px;
+    }
+}

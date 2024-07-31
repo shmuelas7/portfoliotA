@@ -1,0 +1,45 @@
+.container {
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 10px 20px;
+    font-weight: 700;
+    width: 100%;
+    direction: ltr;
+}
+
+.headerToggles {
+    display: flex;
+    gap: 1rem;
+}
+
+.language {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: 600;
+    background: rgb(3, 12, 20);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: none;
+}
+
+.toggleBtn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    aspect-ratio: 1 / 1;
+    background: white;
+    border-style: none;
+    border-radius: 50%;
+    transition: background-color 0.3s ease 0s, transform 0.3s ease 0s;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+}
